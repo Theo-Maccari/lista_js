@@ -1,4 +1,3 @@
-
 function somarNum() {
     let soma = 0;
     let continuar = true;
@@ -15,8 +14,10 @@ function somarNum() {
 
         continuar = confirm("Deseja adicionar mais números?");
 
-    };
+    }
+
+    alert("A soma dos números é: " + soma);
 
 }
 
-somarNum();
+//somarNum();
