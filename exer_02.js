@@ -1,20 +1,11 @@
 function regressivo() {
 
-    let numero = 10;
-    let subtrair = true;
+    console.log("Contagem regressiva");
+    let i = 10;
 
-    while (subtrair) {
-
-        alert(numero);
-
-        if (numero = 0) {
-            alert("Lançamento realizado!");
-            subtrair = false;
-        } else {
-            numero = numero - 1;
-        }
+    while (i >= 1) {
+        console.log(i);
+        i--;
     }
-
 }
 
-regressivo();

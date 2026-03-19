@@ -1,0 +1,9 @@
+function trasformação() {
+
+let num = []
+
+
+
+
+
+}

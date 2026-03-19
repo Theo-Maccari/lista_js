@@ -20,4 +20,3 @@ function somarNum() {
 
 }
 
-//somarNum();
