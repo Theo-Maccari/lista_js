@@ -6,9 +6,9 @@ function somarNum() {
 
         let numero = parseFloat(prompt("Digite um número (ou digite '0' para encerrar):"));
 
-        if(isNaN(numero)){
+        if (isNaN(numero)) {
             alert("Por favor, digite um número válido");
-        }else{
+        } else {
             soma += numero;
         }
 

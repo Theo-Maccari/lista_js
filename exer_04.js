@@ -1,14 +1,14 @@
 function decrescente() {
 
-let num = []
+    let num = []
 
-for (let i = 0; i < 4; i++){
-num.push(Number(prompt("Digite um número")));
+    for (let i = 0; i < 4; i++) {
+        num.push(Number(prompt("Digite um número")));
 
-}
+    }
 
-num.sort((a,b) => b - a);
+    num.sort((a, b) => b - a);
 
-alert.log("Ordem decrescente: " + num);
+    alert.log("Ordem decrescente: " + num);
 
 }

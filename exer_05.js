@@ -1,9 +1,9 @@
 function trasformação() {
 
-    let num = []
+    let num = [0]
 
     if (num % 2 == 0) {
-        num + 1;
+        num++;
     } else {
         num + 1;
     }

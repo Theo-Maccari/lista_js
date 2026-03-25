@@ -1,6 +1,6 @@
 function balanço() {
 
-  let ganho = [];
+    let ganho = [];
     let gasto = [];
     let ganhoAno = 0;
     let gastoAno = 0;
@@ -8,17 +8,17 @@ function balanço() {
 
     for (let i = 0; i < 12; i++) {
 
-        ganho[i] = Number(prompt("Informe os ganhos do mês " + (i+1)));
-        gasto[i] = Number(prompt("Informe os gastos do mês " + (i+1)));
+        ganho[i] = Number(prompt("Informe os ganhos do mês " + (i + 1)));
+        gasto[i] = Number(prompt("Informe os gastos do mês " + (i + 1)));
 
-        ganhoAno += ganho[i]; 
+        ganhoAno += ganho[i];
         gastoAno += gasto[i];
-        
+
     };
 
     total = ganhoAno - gastoAno;
 
-    if(total > 0) {
+    if (total > 0) {
         alert("Lucro: " + total);
     } else {
         alert("Prejúizo: " + total);
